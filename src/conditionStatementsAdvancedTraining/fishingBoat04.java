@@ -9,9 +9,7 @@ public class fishingBoat04 {
         String sezon = scanner.nextLine();
         int broiRibari = Integer.parseInt(scanner.nextLine());
         double boatPrice = 0;
-//· Ако групата е от 7 до 11 човека включително – отстъпка от 15%.
-//
-//· Ако групата е от 12 нагоре – отстъпка от 25%.
+
         switch (sezon) {
             case "Spring":
                 boatPrice = 3000;
